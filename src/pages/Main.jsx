@@ -11,7 +11,7 @@ export default function Main() {
     <>
       <div className="visual-main">
         <img
-          src={process.env.PUBLIC_URL + "./images/visual_main_01.jpg"}
+          src={process.env.PUBLIC_URL + "/images/visual_main_01.jpg"}
           alt=""
         />
       </div>
@@ -32,7 +32,7 @@ export default function Main() {
           return (
             <div className="col-md-3" key={value.id}>
               <img
-                src={process.env.PUBLIC_URL + `./images/best_0${i + 1}.png`}
+                src={process.env.PUBLIC_URL + `/images/best_0${i + 1}.png`}
                 width="280px"
                 alt=""
               />
