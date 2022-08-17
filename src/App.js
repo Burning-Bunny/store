@@ -82,15 +82,9 @@ function App() {
           </Container>
         </Navbar>
 
-        {/* <Link to={"/"}>home</Link>
-        <Link to={"/best"} target="_blank">
-          best
-        </Link> */}
         <Routes>
           <Route path="/" element={<Main />} />
-          {/* <Route path="/about" element={<Main />} />
-          <Route path="/about/history" element={<History />} />
-          <Route path="/about/inform" element={<Inform />} /> */}
+
           <Route path="/about" element={<About />}>
             <Route path="history" element={<History />} />
             <Route path="inform" element={<Inform />} />
