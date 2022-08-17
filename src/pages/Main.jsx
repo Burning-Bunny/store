@@ -10,7 +10,10 @@ export default function Main() {
   return (
     <>
       <div className="visual-main">
-        <img src="../images/visual_main_01.jpg" alt="" />
+        <img
+          src={process.env.PUBLIC_URL + "../images/visual_main_01.jpg"}
+          alt=""
+        />
       </div>
       {/* <Container>
 <Row>
@@ -28,7 +31,11 @@ export default function Main() {
         {data.map((value, i) => {
           return (
             <div className="col-md-3" key={value.id}>
-              <img src={`../images/best_0${i + 1}.png`} width="280px" alt="" />
+              <img
+                src={process.env.PUBLIC_URL + `../images/best_0${i + 1}.png`}
+                width="280px"
+                alt=""
+              />
               <h3>{value.title}</h3>
               <p>{value.price}</p>
               <button
