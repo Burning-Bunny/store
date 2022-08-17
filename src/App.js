@@ -84,7 +84,6 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Main />} />
-
           <Route path="/about" element={<About />}>
             <Route path="history" element={<History />} />
             <Route path="inform" element={<Inform />} />
